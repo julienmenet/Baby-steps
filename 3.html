@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+
+<html lang="en-US">
+
+
+<head>
+<title>The Monty Hall Problem</title>
+<meta charset="UTF-8">
+<!-- CSS style stuff -->
+<style>
+img {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+</style>
+
+</head>
+
+
+<body>
+<h1 style="text-align:center;"> The Monty Hall Problem </h1>
+<br>
+<br>
+
+
+<figure>
+<img style="open" src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Monty_open_door.svg/330px-Monty_open_door.svg.png></img>
+<figcaption style= "background-color:silver">In search of a new car, the player <strong>picks a door</strong>, say 1. 
+The game host then <strong>opens one of the other doors</strong>, say 3, 
+to reveal a goat and <strong>offers to let the player pick door 2 instead of door 1</strong>.</figcaption>
+</figure>
+<br>
+<br>
+<h2 style="text-align:center;">The rules of the game</h2>
+<div style= "background-color:silver">
+<ul style="text-align:center;"> 
+<li>The host must always open a door that was not picked by the contestant</li> 
+<li>The host must always open a door to reveal a goat and never the car.</li>
+<li>The host must always offer the chance to switch between the originally chosen door and the remaining closed door.</li>
+</ul>
+</div>
+<br>
+<h2 style="text-align:center;">Let's say our contestant selects door #1</h2>
+<p style="text-align:center;">He must always accept to switch!</p>
+<p style="text-align:center;">Here is why:</p>
+<table style="width:100%">
+  <tr>
+    <th>Behind door 1</th>
+    <th>Behind door 2</th> 
+    <th>Behind door 3</th>
+	<th>Result if staying at door #1</th>
+	<th>Result if switching to the door offered</th>
+  </tr>
+  <tr>
+    <td>Car</td>
+    <td>Goat</td> 
+    <td>Goat</td>
+	<td>Wins the car!</td>
+	<td>Goat!!</td> 
+  </tr>
+  <tr>
+    <td>Goat</td>
+    <td>Car</td> 
+    <td>Goat</td>
+	<td>Goat!!</td> 
+	<td>Wins the car!</td>
+	
+  </tr>
+    <tr>
+    <td>Goat</td>
+    <td>Goat</td> 
+    <td>Car</td>
+	<td>Goat!!</td> 
+	<td>Wins the car!</td>
+	</tr>
+	
+  
+</table>
+
+</body>
+
